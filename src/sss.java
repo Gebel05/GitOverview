@@ -55,6 +55,7 @@ public class sss {
             System.out.println(mystack2.pop());
 
         mystack1.vaTest(520);
+        mystack1.vaTest(530);
 
     }
 }
