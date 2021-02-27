@@ -42,6 +42,7 @@ public class sss {
         Stack mystack1 = new Stack();
         Stack mystack2 = new Stack();
         Stack mystack3 = new Stack();
+        Stack mystack4 = new Stack();
 
 
        for (int i = 0; i<10; i++) mystack1.push(i);
@@ -55,8 +56,8 @@ public class sss {
         for (int i = 0; i<10; i++)
             System.out.println(mystack2.pop());
 
-        mystack1.vaTest(520);
-        mystack1.vaTest(530);
+        //mystack1.vaTest(520);
+
 
     }
 }
