@@ -1,3 +1,4 @@
+import java.util.*;
 
 
 class Stack {
@@ -30,6 +31,8 @@ class Stack {
                 for(int x : v)
             System.out.println(x);
 
+
+
     }
 }
 
@@ -39,6 +42,7 @@ public class sss {
 
 
 
+        char c = 'x';
         Stack mystack1 = new Stack();
         Stack mystack2 = new Stack();
         Stack mystack3 = new Stack();
@@ -50,11 +54,12 @@ public class sss {
 
         System.out.println("mystack1:");
         for (int i = 0; i<10; i++)
-            System.out.println(mystack1.pop());
+            System.out.println(mystack1.pop()+ "c");
 
         System.out.println("mystack2:");
         for (int i = 0; i<10; i++)
             System.out.println(mystack2.pop());
+
 
         //mystack1.vaTest(520);
 
